@@ -1,0 +1,43 @@
+profiles:
+- certification: Computer Science
+  city: Campinas
+  email: alan_ricardo@gomes.com.br
+  experience: [Backend development at Daitan, Game developer at Bre Educational Technology]
+  lastName: Gomes
+  name: Alan
+  skills: [Socket Programming, Unity3d, Microservices]
+- certification: Medicina
+  city: Brasilia
+  email: monica@russo.com.br
+  experience: [Tomar conhaque noutro canto da cidade, Expecialista em Bandeira, eBauhaus, Van Gogh, Mutantes, em Caetano e  Rimbaud na Livraria Cultura]
+  lastName: Russo
+  name: Monica
+  skills: [Pediatria, Fluencia em alemao]
+- certification: Futebol de botao
+  city: Campinas
+  email: eduardo@russo.com.br
+  experience: [Cuidar de gemeos na empresa casa, Jogador de botao na empresa casa do avo]
+  lastName: Russo
+  name: Eduardo
+  skills: [Parar de beber, Deixar o cabelo crescer, Decidir trabalhar]
+- certification: Computer Science
+  city: Campinas
+  email: jose_charlinho@nascimento.com.br
+  experience: [Pesquisador de iniciacao cientifica em Unicamp, Especialista em Minix]
+  lastName: Nascimento
+  name: Jose
+  skills: [Socket Programming, Pesquisador]
+- certification: Artes Cenicas
+  city: Rio de Janeiro
+  email: gloria@pires.com.br
+  experience: [Comentadora do Oscar da Globo, Atriz em globo filmes]
+  lastName: Pires
+  name: Gloria
+  skills: [novelas, comentarista, trocar de corpo com o Tony Ramos]
+- certification: writer
+  city: Somewhere
+  email: agatha@christie.com
+  experience: [Wrote a lot of books at home, I got the attention of millions of readers worldwide, solve misteries, solve misteries]
+  lastName: Christie
+  name: Agatha
+  skills: [writting, listening, investigation]
