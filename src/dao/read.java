@@ -44,32 +44,32 @@ public class read {
         	String[] userPar = usersStr[i].split("\n");
         	
         	for(String par : userPar) {
-        		String valres[] = par.strip().split(":");
+        		String valres[] = par.trim().split(":");
         		switch(valres[0]) {
         			case "email":
-        				email = valres[1].strip();
+        				email = valres[1].trim();
         				break;
         			case "city":
-        				city = valres[1].strip();
+        				city = valres[1].trim();
         				break;
         			case "certification":
-        				certification = valres[1].strip();
+        				certification = valres[1].trim();
         				break;
         			case "name":
-        				name = valres[1].strip();
+        				name = valres[1].trim();
         				break;
         			case "lastName":
-        				lastName = valres[1].strip();
+        				lastName = valres[1].trim();
         				break;
         			case "experience":
-        				for(String exp : valres[1].strip().substring(1, valres[1].length()-2).split(",")) {
+        				for(String exp : valres[1].trim().substring(1, valres[1].length()-2).split(",")) {
         					
-        					experience.add(exp.strip());
+        					experience.add(exp.trim());
         				}
         				break;
         			case "skills":
-        				for(String skl : valres[1].strip().substring(1, valres[1].length()-2).split(",")) {
-        					skills.add(skl.strip());
+        				for(String skl : valres[1].trim().substring(1, valres[1].length()-2).split(",")) {
+        					skills.add(skl.trim());
         				}
         				break;
         		}

@@ -10,7 +10,7 @@ public class Server {
         try {
             Registry reg = LocateRegistry.createRegistry(1099);
             operations service = new operations();
-            reg.rebind("resume", service);
+            reg.rebind("resume2", service);
 
             System.out.println("System is ready!");
 

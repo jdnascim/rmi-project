@@ -1,12 +1,17 @@
 package dao;
 
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 import java.util.HashSet;
 
 import bean.user;
 
-public class operations implements OperationsInterface{
-	
+public class operations extends UnicastRemoteObject implements OperationsInterface{
+
+	public operations() throws RemoteException {
+	}
+
 	// (1) listar todas as pessoas formadas em um determinado curso;
 	public String usersFromCourse(String course) {
 		ArrayList<user> users = read.read_db();

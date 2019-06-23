@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import bean.user;
 
 public class utils {
-	private static final String pathyml = "/home/ninmcasteo/9SEM/MC833/Proj03/src/movie-data.yml";
+	private static final String pathyml = "/Users/la-alanrgo/Documents/UNICAMP/Charlinho/rmi-project/src/movie-data.yml";
 	
 	protected static String getPathYML() {
 		return pathyml;
