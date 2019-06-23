@@ -37,8 +37,7 @@ profiles:
 - certification: writer
   city: Somewhere
   email: agatha@christie.com
-  experience: [Wrote a lot of books at home, I got the attention of millions of readers worldwide]
+  experience: [Wrote a lot of books at home, I got the attention of millions of readers worldwide, solve misteries, solve misteries]
   lastName: Christie
   name: Agatha
   skills: [writting, listening, investigation]
-
