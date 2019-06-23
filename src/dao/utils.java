@@ -1,14 +1,16 @@
 package dao;
 
+import java.nio.file.Paths;
 import java.util.ArrayList;
 
 import bean.user;
 
 public class utils {
-	private static final String pathyml = "/Users/la-alanrgo/Documents/UNICAMP/Charlinho/rmi-project/src/movie-data.yml";
-	
+	private static String pathyml = "/src/movie-data.yml";
+
 	protected static String getPathYML() {
-		return pathyml;
+
+		return Paths.get("").toAbsolutePath() +  pathyml;
 	}
 	
 	protected static String arrayLUserstoString(ArrayList<user> users) {
